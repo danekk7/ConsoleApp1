@@ -257,6 +257,12 @@ namespace ConsoleApp1
 
                 string choice = Console.ReadLine();
 
+                if (string.IsNullOrWhiteSpace(choice))
+                {
+                    Console.WriteLine("⚠ Ошибка: вы ничего не ввели. Попробуйте снова.");
+                    continue;
+                }
+
                 switch (choice)
                 {
                     case "1":
