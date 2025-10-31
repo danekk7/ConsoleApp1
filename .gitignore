@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+
+# IDE backups
+*.bak
+*.tmp
+
+# System
+Thumbs.db
+*.DS_Store
